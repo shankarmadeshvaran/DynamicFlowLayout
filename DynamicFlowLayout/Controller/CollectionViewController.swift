@@ -14,7 +14,6 @@ class CollectionViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         setupCollectionViewInsets()
         setupLayout()
 
