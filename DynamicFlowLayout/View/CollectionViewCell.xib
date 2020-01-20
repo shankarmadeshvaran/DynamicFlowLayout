@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCellID" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="DynamicFlowLayout" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="177" height="225"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="177" height="225"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N8I-nP-rdE">
+                        <rect key="frame" x="0.0" y="0.0" width="177" height="225"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yCW-Ip-F0g">
+                                <rect key="frame" x="0.0" y="0.0" width="177" height="225"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="225" id="244-kc-Jm5"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yCW-Ip-F0g" firstAttribute="leading" secondItem="N8I-nP-rdE" secondAttribute="leading" id="06E-vW-iGf"/>
+                            <constraint firstItem="yCW-Ip-F0g" firstAttribute="top" secondItem="N8I-nP-rdE" secondAttribute="top" id="6yi-e5-2uA"/>
+                            <constraint firstAttribute="trailing" secondItem="yCW-Ip-F0g" secondAttribute="trailing" id="lGS-B7-g7Q"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="N8I-nP-rdE" secondAttribute="trailing" id="IB2-V2-rYV"/>
+                <constraint firstItem="N8I-nP-rdE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="KmZ-Ew-nNR"/>
+                <constraint firstItem="N8I-nP-rdE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="OCe-W9-YBS"/>
+                <constraint firstAttribute="bottom" secondItem="N8I-nP-rdE" secondAttribute="bottom" id="j2W-uR-qbw"/>
+            </constraints>
+            <size key="customSize" width="177" height="225"/>
+            <connections>
+                <outlet property="imageView" destination="yCW-Ip-F0g" id="xTy-dB-FCn"/>
+                <outlet property="imageViewHeightLayoutConstraint" destination="244-kc-Jm5" id="MmR-Ra-WOQ"/>
+            </connections>
+            <point key="canvasLocation" x="223.91304347826087" y="173.77232142857142"/>
+        </collectionViewCell>
+    </objects>
+</document>
