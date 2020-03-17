@@ -10,9 +10,10 @@
 
 
 <p align="center">
-<img src="https://github.com/shankarmadeshvaran/Contacts_CoreData/blob/master/ScreenShots/aadContact.png" width="33%" height="70%"/>
-<img src="https://github.com/shankarmadeshvaran/Contacts_CoreData/blob/master/ScreenShots/listContacts.png" width="33%" height="70%"/>
-<img src="https://github.com/shankarmadeshvaran/Contacts_CoreData/blob/master/ScreenShots/searchContacts.png" width="33%" height="70%"/>
+<img src="https://github.com/shankarmadeshvaran/MachineTestProject/blob/master/ScreenShots/Dashboard1.png" width="25%" height="70%"/>
+<img src="https://github.com/shankarmadeshvaran/MachineTestProject/blob/master/ScreenShots/Dashboard2.png" width="25%" height="70%"/>
+<img src="https://github.com/shankarmadeshvaran/MachineTestProject/blob/master/ScreenShots/dynamicPlayersProfile1.png" width="25%" height="70%"/>
+<img src="https://github.com/shankarmadeshvaran/MachineTestProject/blob/master/ScreenShots/dynamicPlayersProfile2.png" width="25%" height="70%"/>
 </p>
 
 
