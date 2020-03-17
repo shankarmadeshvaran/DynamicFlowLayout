@@ -10,10 +10,10 @@
 
 
 <p align="center">
-<img src="https://github.com/shankarmadeshvaran/MachineTestProject/blob/master/ScreenShots/Dashboard1.png" width="50%" height="60%"/>
-<img src="https://github.com/shankarmadeshvaran/MachineTestProject/blob/master/ScreenShots/Dashboard2.png" width="50%" height="60%"/>
-<img src="https://github.com/shankarmadeshvaran/MachineTestProject/blob/master/ScreenShots/dynamicPlayersProfile1.png" width="50%" height="60%"/>
-<img src="https://github.com/shankarmadeshvaran/MachineTestProject/blob/master/ScreenShots/dynamicPlayersProfile2.png" width="50%" height="60%"/>
+<img src="https://github.com/shankarmadeshvaran/MachineTestProject/blob/master/ScreenShots/Dashboard1.png" width="40%" height="60%"/>
+<img src="https://github.com/shankarmadeshvaran/MachineTestProject/blob/master/ScreenShots/Dashboard2.png" width="40%" height="60%"/>
+<img src="https://github.com/shankarmadeshvaran/MachineTestProject/blob/master/ScreenShots/dynamicPlayersProfile1.png" width="40%" height="60%"/>
+<img src="https://github.com/shankarmadeshvaran/MachineTestProject/blob/master/ScreenShots/dynamicPlayersProfile2.png" width="40%" height="60%"/>
 </p>
 
 
