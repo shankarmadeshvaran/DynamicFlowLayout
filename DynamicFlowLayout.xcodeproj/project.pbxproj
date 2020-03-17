@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9030B57B2420C551007645AF /* PlayersData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9030B57A2420C551007645AF /* PlayersData.json */; };
 		C121CFD823D344DE002ACBEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C121CFD723D344DE002ACBEA /* AppDelegate.swift */; };
 		C121CFDC23D344DE002ACBEA /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C121CFDB23D344DE002ACBEA /* LaunchViewController.swift */; };
 		C121CFDF23D344DE002ACBEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C121CFDD23D344DE002ACBEA /* Main.storyboard */; };
@@ -31,7 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C121CFD423D344DE002ACBEA /* DynamicFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9030B57A2420C551007645AF /* PlayersData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PlayersData.json; sourceTree = "<group>"; };
+		C121CFD423D344DE002ACBEA /* CricketersWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricketersWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C121CFD723D344DE002ACBEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C121CFDB23D344DE002ACBEA /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		C121CFDE23D344DE002ACBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				C121CFFA23D38096002ACBEA /* ImageViewExtension.swift */,
 				C121D00223D38F55002ACBEA /* HelperManager.swift */,
+				9030B57A2420C551007645AF /* PlayersData.json */,
 			);
 			path = "Helper Files";
 			sourceTree = "<group>";
@@ -151,7 +154,7 @@
 		C121CFD523D344DE002ACBEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C121CFD423D344DE002ACBEA /* DynamicFlowLayout.app */,
+				C121CFD423D344DE002ACBEA /* CricketersWiki.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,7 +188,7 @@
 			);
 			name = DynamicFlowLayout;
 			productName = DynamicFlowLayout;
-			productReference = C121CFD423D344DE002ACBEA /* DynamicFlowLayout.app */;
+			productReference = C121CFD423D344DE002ACBEA /* CricketersWiki.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -228,6 +231,7 @@
 			files = (
 				C121CFE723D344E4002ACBEA /* LaunchScreen.storyboard in Resources */,
 				C125DE0023D4D1EE00F21A93 /* CollectionViewCell.xib in Resources */,
+				9030B57B2420C551007645AF /* PlayersData.json in Resources */,
 				C121CFF923D37888002ACBEA /* CellDynamic.xib in Resources */,
 				C125DDFC23D4C22800F21A93 /* CollectionViewController.xib in Resources */,
 				C121CFE423D344E4002ACBEA /* Assets.xcassets in Resources */,
@@ -410,7 +414,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shankar.DynamicFlowLayout;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CricketersWiki;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -431,7 +435,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shankar.DynamicFlowLayout;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CricketersWiki;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
