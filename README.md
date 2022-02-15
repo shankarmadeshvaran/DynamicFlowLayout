@@ -18,4 +18,4 @@
 
 
 ## More Updates
-Follow me on [LinkedIn](https://linkedin.com/in/shankar-mathesh) or [Twitter](https://twitter.com/Shankar__am) to get the latest update about features, code and more. 
+Follow me on [LinkedIn](https://linkedin.com/in/shankar-mathesh) or [Twitter](https://twitter.com/devinmaking) to get the latest update about features, code and more. 
